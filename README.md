@@ -1,7 +1,9 @@
 # C-PROJECT
 
-First programing project.
+School project in C.
 
-The project manage an apartments for sale database.
+Written with Oran Sherf.
 
-Written with Oran Sherf on VS2017.
+The following program manage data base of appartments for sale.
+
+written in VS2017
