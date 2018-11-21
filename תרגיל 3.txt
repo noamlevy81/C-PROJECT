@@ -1,0 +1,33 @@
+add-an-apt "Hasavyonim 23 Ramat Ono" 2000000 4 01 01 12 
+add-an-apt "Pashosh 1 Ness Ziona" 350142 5 13 05 18
+add-an-apt "Pashosh 2 Ness Ziona" 800000 3 05 01 17 
+add-an-apt "Pashosh 3 Ness Ziona" 1750001 4 01 01 20 
+add-an-apt "Pashosh 4 Ness Ziona" 174999 2 01 06 20
+add-an-apt "Pashosh 5 Ness Ziona" 8000 5 01 01 18
+add-an-apt "Pashosh 6 Ness Ziona" 8000 6 20 01 27
+get-an-apt –MinimumNumRooms 3 –MaximumNumRooms 5 –MaximumPrice 1750000 -Date 13052018 -sr
+buy-an-apt 2
+get-an-apt –MinimumNumRooms 3 –MaximumNumRooms 5 –MaximumPrice 1750000 -Date 13052018 -sr
+short_history
+!!
+
+
+add-an-apt "Hasavyonim 23 Ramat Ono" 2000000 4 28 04 16 
+exit
+
+add-an-apt "Pashosh 1 Ness Ziona" 350142 5 13 05 18
+exit
+
+**test 1:
+
+add-an-apt "Dizengoff 180 Tel Aviv" 2000000 4 28 09 16
+add-an-apt "Rothschild 67 Rishon Le Zion" 1700000 3 03 10 16
+add-an-apt "Ben Gurion 25 Herzliya" 2200000 5 01 08 16
+add-an-apt "Gordon 85 Holon" 1500000 3 15 06 17
+get-an-apt -MinimumNumRooms 3 -MaximumNumRooms 5 -MaximumPrice 1750000 -s
+
+get-an-apt 1
+del-an-apt -Enter 3
+history
+!9
+
